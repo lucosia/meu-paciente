@@ -10644,3 +10644,66 @@ a.text-dark:focus {
   }
 }
 
+#mainNavbar {
+  background-color: #0E66AF !important;
+}
+
+#mainNavbar a,
+#mainNavbar h1 {
+  color: white;
+}
+
+#mainNavbar .navbar-brand {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.25rem;
+}
+
+#mainNavbar .dropdown-item {
+  color: black;
+}
+
+#mainNavbar #navbarDropdown {
+  padding: 0.8rem;
+  border: 1px solid;
+  border-radius: 16px;
+  border-color: white;
+}
+
+body {
+  background-color: #7FA2F4;
+}
+
+.pacient-list-button {
+  margin: 0.2rem;
+  width: 100%;
+  color: #19233B;
+}
+
+.pacient-list-button.ativo {
+  background-color: #D0DEFF;
+}
+
+.pacient-list-button.ativo:hover {
+  background-color: #7FA2F4;
+}
+
+.pacient-list-button.desativado {
+  background-color: #FFD9D9;
+  color: #410000;
+}
+
+.pacient-list-button.desativado:hover {
+  background-color: #FF6969;
+  color: white;
+}
+
+.pacient-span-list {
+  float: left;
+}
+
+.fa-chevron-right {
+  float: right;
+  line-height: 1.6 !important;
+}
+

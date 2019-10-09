@@ -6,3 +6,59 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+#mainNavbar {
+    background-color: #0E66AF !important;
+    a, h1 {
+        color: white;
+    }
+    .navbar-brand {
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 2.25rem;
+    }
+    .dropdown-item{
+        color:black;
+    }
+    #navbarDropdown{
+        padding: 0.8rem;
+        border: 1px solid;
+        border-radius: 16px;
+        border-color: white;
+    }
+}
+
+body {
+    background-color: $body-backgound-color;
+    // background-color: #C6FDEC;
+
+}
+
+.pacient-list-button{
+    margin: 0.2rem;
+    width: 100%;
+    color: #19233B;
+    &.ativo{
+        background-color: #D0DEFF;
+        &:hover{
+            background-color: $body-backgound-color;
+        }
+    }
+    &.desativado{
+        background-color: #FFD9D9;
+        color: #410000;
+        &:hover{
+            background-color: #FF6969;
+            color:white;
+        }
+    }
+}
+
+.pacient-span-list{
+    float: left;
+}
+
+.fa-chevron-right{
+    float:right;
+    line-height: 1.6 !important;
+}
